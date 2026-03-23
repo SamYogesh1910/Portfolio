@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yogeshwari Portfolio</title>
 
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Yogeshwari S</h2>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <ul id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+     
+  <div class="hero-text">
+    <div class="hero-image">
+    <img src="images/profile.jpg" alt="profile">
+  </div>
+    <h1>Hi, I'm Yogeshwari 👋</h1>
+   
+    <h2 id="typing"></h2>
+    <p>I build modern and responsive web applications.</p>
+
+    <div class="hero-buttons">
+      <button onclick="scrollToSection('contact')">Hire Me</button>
+      <button class="outline" onclick="scrollToSection('projects')">Projects</button>
+    </div>
+  </div>
+
+  
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="about-wrapper">
+
+    <!-- LEFT IMAGE -->
+    <div class="about-img">
+      <img src="images/profile.jpg" alt="Yogeshwari">
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="about-content">
+
+      <h3>Frontend Developer & MERN Stack Learner</h3>
+
+      <p>
+        I am a passionate and self-motivated developer with a strong foundation in HTML, CSS, JavaScript, and React. 
+        I completed my B.E in Computer Science and Engineering in 2025.
+      </p>
+
+      <p>
+        I enjoy creating modern, responsive, and user-friendly web applications. 
+        I have worked on real-world projects like a Blood Donation Web App and an E-commerce Website.
+      </p>
+
+    
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+<div class="skills-grid">
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+    <p>HTML</p>
+  </div>
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+    <p>CSS</p>
+  </div>
+<div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+    <p>JavaScript</p>
+  </div>
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+    <p>React</p>
+  </div>
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+    <p>Node.js</p>
+  </div>
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
+    <p>MongoDB</p>
+  </div>
+
+  <!-- ✅ GitHub  -->
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+    <p>GitHub</p>
+  </div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects-list">
+    <div class="project-item">
+      <h3>Environmental Monitoring System</h3>
+      <p>
+        Designed an IoT-based system to monitor temperature and humidity levels.  
+        Helps in real-time environmental data tracking and analysis.
+      </p>
+       </div>
+
+    <div class="project-item">
+      <h3>Blood Donation Web Application</h3>
+      <p>
+        Developed a MERN stack application for donor registration and blood request management.  
+        Enables users to connect and request blood easily in real time.
+      </p>
+    </div>
+
+    <div class="project-item">
+      <h3>E-commerce Website</h3>
+      <p>
+        Built a responsive React-based web application with product listing and cart functionality.  
+        Provides a smooth user experience for browsing and purchasing products.
+      </p>
+    </div>
+
+    
+   
+
+  </div>
+</section>
+
+
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+
+  <div class="contact-container">
+
+    <div class="contact-item">
+      <h3>Email</h3>
+       <p>
+        <a href="https://mail.google.com/mail/?view=cm&to=samyogesh1910@gmail.com" target="_blank">
+  samyogesh1910@gmail.com
+</a>
+      </p>
+
+    </div>
+
+    <div class="contact-item">
+      <h3>Phone</h3>
+       <p>
+  <a href="tel:9629179961">
+    9629179961
+  </a>
+</p>
+    </div>
+
+   
+
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
